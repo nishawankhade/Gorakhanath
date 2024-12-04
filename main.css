@@ -1,11 +1,11 @@
 body{
-    background-color: rgb(192, 208, 208);
+    background-color: white;
 }
 .sidebar{
     background-color:rgb(180, 174, 174);
     padding: 10px;
     height: 80vh;
-    width: 20vw;
+    width: 400px;
 
 }
 .sidebar nav{
@@ -16,6 +16,10 @@ padding: 45px;
     list-style: none;
     font-size: 30px;
     padding: 25px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
 }
 .main{
     background-color:white;
@@ -28,7 +32,7 @@ padding: 45px;
 }
 .infocontainer{
     margin: 100px auto;
-background-color: lightslategray;
+background-color:white
 width: 70vw;
 height: 60vh;
 display: flex;
@@ -36,17 +40,38 @@ justify-content: space-around;
 
 }
 .hello{
-font-size: 40px;
-font-family: Arial, Helvetica, sans-serif;
+font-size: 26px;
+
 }
 .name{
-font-size: 25px;
+font-size: 35px;
 font-family: bold;
+font-family: Arial, Helvetica, sans-serif;
 }
 .about{
-font-size: 20px;
+font-size: 19px;
+margin-top: 10px;
 }
+.moreabout{
+ font-size: 18px;
+ margin-top: 12px;
+}
+
 .buttons button{
+    margin: 8px 8px;
+    border-radius: 22px;
+    border-color: blue;
+    padding: 9px 14px;
+    background-color: dodgerblue;
+    font-weight: bold;
+    color: white;
+    font-size: 21px;
+    cursor: pointer;
+    
+}
+.buttons button:hover{
+    background-color: white;
+    color: blue;
 
 }
 .devpic img{
