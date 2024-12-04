@@ -84,3 +84,23 @@ margin-top: 10px;
     justify-content:center;
     flex-direction: column;
 }
+.contactform{
+    padding-top: 30px;
+    padding-right: 600px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contactform h1{
+    font-family: sans-serif;
+    text-align: center;
+    width: 50VW;
+
+   
+}
+.contactform  form div input{
+    width: 26vw;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 23px 0 0 0;
+    margin-left: 20px;
+    
+}
